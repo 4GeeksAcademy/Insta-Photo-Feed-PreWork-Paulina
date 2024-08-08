@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .feed-container {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .post {
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .caption {
+            padding: 10px;
+        }
+
+        .caption strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="feed-container">
+        <div class="post">
+            <strong>Primer post</strong>
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                alt="Post Image">
+            <div class="caption">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam voluptatum laudantium itaque
+                    temporibus autem necessitatibus fugiat natus beatae, minima ex labore nulla voluptas maiores
+                    officiis, id culpa provident nobis! Facere.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <strong>Segundo post</strong>
+            <img src="https://wallpaperaccess.com/full/1149888.jpg" alt="Post Image">
+            <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus incidunt a, repellat maiores corporis
+                    officiis ipsam quam ullam velit similique ipsum ratione necessitatibus eos, minus dolorum. Aliquid
+                    quo libero deleniti?</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <strong>Tercer post</strong>
+            <img src="https://i.pinimg.com/736x/af/03/e8/af03e8f301698efda8006b4da49ebf52.jpg" alt="Post Image">
+            <div class="caption">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ipsum cupiditate quibusdam
+                    repellendus? Commodi repellendus reprehenderit voluptatem sint facilis, doloribus quis molestiae
+                    reiciendis eaque fuga harum officiis consequuntur blanditiis tempora.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
